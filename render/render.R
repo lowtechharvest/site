@@ -14,7 +14,6 @@ generate_page <- function(body_loc, out_loc) {
 
 }
 
-generate_page("render/content/home.html", "index.html")
 
 generate_site <- function() {
     generate_page("render/content/home.html", "index.html")
@@ -22,6 +21,8 @@ generate_site <- function() {
     generate_page("render/content/reading_list.html",
                   "reading_list/index.html")
     generate_page("render/content/about.html", "about/index.html")
+    generate_page("render/content/cooking.html", "cooking/index.html")
 }
 
 generate_site()
+    
